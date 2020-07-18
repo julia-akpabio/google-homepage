@@ -1,1 +1,2 @@
 # google-homepage
+This is sort of my first project. With this I have learned to set up and clone a git repository to my local machine. I've learned what happens when you click on the readme.md file and how to write a description. I wonder if there is another - read better - way of getting into this. This project is me using the developer tools to help me create a clone of the google homepage and I'll also try to do a search results clone. 
