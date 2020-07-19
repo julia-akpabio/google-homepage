@@ -1,0 +1,13 @@
+div {
+    overflow: hidden; 
+    position: absolute; 
+    top: 0px; 
+    visibility: hidden; 
+    width: 328px; 
+    z-index: 991; 
+    height: 0px; 
+    margin-top: 40px; 
+    right: 0px; 
+margin-right: 27px; 
+transition: height 0.3s ease-in-out 0s;
+}
