@@ -1,8 +1,45 @@
 #left-side-header {
-    display: inline;
+    display: inline-block;
     position: relative;
     left: 900px;
+    color: rgb(0, 0, 0);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: 0.75;
+    padding-left: 15px;
+    text-decoration: none;
 }
 #right-side-header {
     display: inline;
+}#main {
+    padding-top: 109px;
+    width: 272; 
+    height: 92;
+    position: relative;
+    left: 450px; 
+}
+form {
+    overflow: visible;
+    position:relative;
+    margin:0 auto;
+    padding-top:6px;
+    width:484px;
+}
+#searchform {
+    background:url(/images/searchbox/desktop_searchbox_sprites318_hr.webp)
+}
+/* Unvisited Link */
+svg {
+  height: 20px; 
+  width: 20px; 
+  color: rgb(154, 160, 166); 
+  display: block; 
+  font-family: Arial, sans-serif;  
+  line-height: 24px; 
+  position: relative;
+  left: 100px; 
+}
+/* Mouse over Link */
+#left-side-header: hover {
+    text-decoration: underline rgb(0, 0, 0);
 }
