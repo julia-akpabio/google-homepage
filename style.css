@@ -1,3 +1,4 @@
+/* Unvisited Links */
 #left-side-header {
     display: inline-block;
     position: relative;
@@ -6,11 +7,14 @@
     font-family: arial, sans-serif;
     font-size: 13px;
     opacity: 0.75;
-    padding-left: 15px;
+    padding: Opx Opx Opx 15px;
     text-decoration: none;
 }
 #right-side-header {
     display: inline;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    
 }#main {
     padding-top: 109px;
     width: 272; 
@@ -28,7 +32,6 @@ form {
 #searchform {
     background:url(/images/searchbox/desktop_searchbox_sprites318_hr.webp)
 }
-/* Unvisited Link */
 svg {
   height: 20px; 
   width: 20px; 
