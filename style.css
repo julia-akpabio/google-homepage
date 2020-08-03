@@ -40,7 +40,7 @@
 
 .apps-section {
     display: inline-block;
-    background-image: url(url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png'));
+    background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
 }
 
 .sign-in-button {
