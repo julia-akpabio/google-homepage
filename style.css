@@ -1,8 +1,8 @@
 /* Unvisited Links */
-#left-side-header {
+#right-side-header {
     display: inline-block;
     position: relative;
-    left: 900px;
+    left: 1000px;
     color: rgb(0, 0, 0);
     font-family: arial, sans-serif;
     font-size: 13px;
@@ -10,18 +10,50 @@
     padding: Opx Opx Opx 15px;
     text-decoration: none;
 }
-#right-side-header {
-    display: inline;
+
+/* Mouse over Link */
+#left-side-header:hover {
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+#left-side-header {
+    display: inline-block;
     font-size: 13px;
     font-family: arial, sans-serif;
+    padding: Opx Opx Opx 15px;
     
-}#main {
+}
+.about-section {
+    display: inline-block;
+}
+.store-section {
+    display: inline-block;
+}
+
+.mail-section {
+    display: inline-block;
+}
+
+.image-section {
+    display: inline-block;
+}
+
+.apps-section {
+    display: inline-block;
+}
+
+.sign-in-button {
+    display: inline-block;
+}
+
+#main {
     padding-top: 109px;
     width: 272; 
     height: 92;
     position: relative;
     left: 450px; 
 }
+
 form {
     overflow: visible;
     position:relative;
@@ -29,9 +61,9 @@ form {
     padding-top:6px;
     width:484px;
 }
-#searchform {
-    background:url(/images/searchbox/desktop_searchbox_sprites318_hr.webp)
-}
+
+
+
 svg {
   height: 20px; 
   width: 20px; 
@@ -42,7 +74,4 @@ svg {
   position: relative;
   left: 100px; 
 }
-/* Mouse over Link */
-#left-side-header: hover {
-    text-decoration: underline rgb(0, 0, 0);
-}
+
