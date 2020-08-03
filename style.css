@@ -40,10 +40,14 @@
 
 .apps-section {
     display: inline-block;
+    background-image: url(url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png'));
 }
 
 .sign-in-button {
     display: inline-block;
+    font-weight: bold;
+    border-width: 1px 1px;
+    border-color: rgb(66, 133, 244);
 }
 
 #main {
