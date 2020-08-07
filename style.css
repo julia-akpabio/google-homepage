@@ -52,6 +52,13 @@ body {
     font-weight: bold;
     border-width: 1px 1px;
     border-color: rgb(66, 133, 244);
+    width: 32px;
+    height: 32px;
+    position: relative;
+    left: 1323px;
+    top: 15px;
+    right: 1355px;
+    bottom: 47px;
 }
 
 #main {
