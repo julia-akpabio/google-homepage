@@ -1,3 +1,7 @@
+body {
+    height: 734px;
+    width: 1384px;
+}
 /* Unvisited Links */
 #right-side-header {
     display: inline-block;
@@ -58,7 +62,7 @@
     left: 450px; 
 }
 
-form {
+.sign-in-button {
     overflow: visible;
     position:relative;
     margin:0 auto;
@@ -66,7 +70,16 @@ form {
     width:484px;
 }
 
+#search {
+    width: 584px;
+    height: 47px;
+    position: relative;
+    left: 401px;
+    top: 275px;
+    right: 984px;
+    bottom: 322px; 
 
+}
 
 svg {
   height: 20px; 
