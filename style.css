@@ -20,8 +20,6 @@ a {
     color: rgb(0, 0, 0);
     opacity: 0.75;
     text-align: right;
-    position: relative;
-    bottom: 15px;
 }
 .left-side-header {
     color: rgba(0,0,0,0.87);
@@ -29,13 +27,13 @@ a {
 }
 /* Google Site Name */
 #main {
-    padding-top: 109px;
-    width: 293; 
-    height: 81;
     position: relative;
-    left: 570px;
-    right: 863px; 
+    justify-self: center;
+    align-self: center;
+
+
 }
+
 /* Magnifying Glass */
 svg {
     height: 20px; 
@@ -47,29 +45,29 @@ svg {
     position: relative;
     left: 100px; 
   }
+
   footer {
-      font-size: 14px;
-      font-family: arial, sans-serif;
-      color: #5F6368;
-      padding: 0px 0px 0px -27px; 
-      height: 35px;
-      bottom: 0;
-      position: fixed;
-      width: 100%;
-      margin: 0 !important; 
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0; 
+    color: #5F6368;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    height: 35px;
+    position: fixed;
+    right: 1px; 
+    white-space: nowrap;
   }
+  .footer {
+    color: #5F6368;
+}
   .right-side-footer {
     text-align: right;
-    position: relative; 
-    right: 50px;
+    position: relative;
+    bottom: 40px; 
+    right: 20px; 
+    font-size: 14px;
+  }
   
-   
-  }
-  .left-side-footer {
-      text-align: left;
-      position: relative;
-      left: 15px; 
-      padding-left: 27px;
-      
-      
-  }
