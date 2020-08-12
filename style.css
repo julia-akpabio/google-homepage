@@ -1,101 +1,75 @@
-body {
-    height: 734px;
-    width: 1384px;
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0)
 }
 /* Unvisited Links */
-#right-side-header {
-    display: inline-block;
-    position: relative;
-    left: 1000px;
+.right-side-header {
     color: rgb(0, 0, 0);
-    font-family: arial, sans-serif;
-    font-size: 13px;
     opacity: 0.75;
-    padding: Opx Opx Opx 15px;
-    text-decoration: none;
-}
-
-/* Mouse over Link */
-#left-side-header:hover {
-    text-decoration: underline rgb(0, 0, 0);
-}
-
-#left-side-header {
-    display: inline-block;
-    font-size: 13px;
-    font-family: arial, sans-serif;
-    padding: Opx Opx Opx 15px;
-    
-}
-.about-section {
-    display: inline-block;
-}
-.store-section {
-    display: inline-block;
-}
-
-.mail-section {
-    display: inline-block;
-}
-
-.image-section {
-    display: inline-block;
-}
-
-.apps-section {
-    display: inline-block;
-    background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
-}
-
-.sign-in-button {
-    display: inline-block;
-    font-weight: bold;
-    border-width: 1px 1px;
-    border-color: rgb(66, 133, 244);
-    width: 32px;
-    height: 32px;
+    text-align: right;
     position: relative;
-    left: 1323px;
-    top: 15px;
-    right: 1355px;
-    bottom: 47px;
+    bottom: 15px;
 }
-
+.left-side-header {
+    color: rgba(0,0,0,0.87);
+    text-align: left;
+}
+/* Google Site Name */
 #main {
     padding-top: 109px;
-    width: 272; 
-    height: 92;
+    width: 293; 
+    height: 81;
     position: relative;
-    left: 450px; 
+    left: 570px;
+    right: 863px; 
 }
-
-.sign-in-button {
-    overflow: visible;
-    position:relative;
-    margin:0 auto;
-    padding-top:6px;
-    width:484px;
-}
-
-#search {
-    width: 584px;
-    height: 47px;
-    position: relative;
-    left: 401px;
-    top: 275px;
-    right: 984px;
-    bottom: 322px; 
-
-}
-
+/* Magnifying Glass */
 svg {
-  height: 20px; 
-  width: 20px; 
-  color: rgb(154, 160, 166); 
-  display: block; 
-  font-family: Arial, sans-serif;  
-  line-height: 24px; 
-  position: relative;
-  left: 100px; 
-}
-
+    height: 20px; 
+    width: 20px; 
+    color: rgb(154, 160, 166); 
+    display: block; 
+    font-family: Arial, sans-serif;  
+    line-height: 24px; 
+    position: relative;
+    left: 100px; 
+  }
+  footer {
+      font-size: 14px;
+      font-family: arial, sans-serif;
+      color: #5F6368;
+      padding: 0px 0px 0px -27px; 
+      height: 35px;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      margin: 0 !important; 
+  }
+  .right-side-footer {
+    text-align: right;
+    position: relative; 
+    right: 50px;
+  
+   
+  }
+  .left-side-footer {
+      text-align: left;
+      position: relative;
+      left: 15px; 
+      padding-left: 27px;
+      
+      
+  }
